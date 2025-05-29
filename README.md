@@ -40,6 +40,9 @@ Comopenetes que van incluidos dentro del XR Origin
   
     ![Ejepmlo Rig_4](DocResources/Rig_4.gif)
 
+> [!WARNING]
+> ¡El Parent Constrain siempre debe empezar desactivado!
+
   - Segundo, hay que asignar la función **```MatchWorldTransform()```** en el script de **TrackingControllerStateEvents**, para poder reconocer en que momentos se sueltan o se agarran los objetos que tendrán el control pegado.
  
     ![Ejemplo_Rig_5](DocResources/Rig_5.png)
